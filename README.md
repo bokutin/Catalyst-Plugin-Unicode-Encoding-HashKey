@@ -12,7 +12,7 @@ Catalyst::Plugin::Unicode::Encoding::HashKey - params のキーもデコード�
 
     __PACKAGE__->config(
         'Plugin::Unicode::Encoding::HashKey' => {
-            normalize_hash_key_nfc => 1, # default
+            normalize_hash_key_nfc => 0, # default
         },
     );
 
